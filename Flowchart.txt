@@ -1,0 +1,48 @@
+1. Importing Libraries
+2. Loading the Dataset
+3. Data Processing
+     - Understanding the features
+     - Dropping the insignificant features
+     - Eliminating the duplicate values and Null values
+     - Outlier treatment 
+4. Feature Engineering
+     - BMI and MAP  
+     - Relationship between the variables
+     - Multicollinearity Test
+     - The Examination of Target Variable
+     - Using Label Encoder to convert the data into binary(Categorical Features)
+     - checking the distribution of the data(Skew Data)
+     - Transformation of data
+     - Scaling the data
+     - Statistical significance of variables(Hypothesis Testing)
+5. Splitting the data to X and Y for Machine Learning and further as train and test datasets
+6. Building the model
+     - Decision tree
+     - Random Forest Classifier
+     - K Neighbors Classifier
+     - AdaBoost Classifier
+     - XG Boost Classifier
+     - SVM
+7. Training the Model
+8. Hyperparameter Tuning 
+     - GridSearchCV
+9. Again training the Model with best parameters from Hyperparameter Tuning
+10. Performance Metrics 
+     - Classification Report 
+     - AUC Curves
+     - Confusion matrix
+---------------------------------------------------------------------------------------------
+
+Stream lit Framework
+
+11. Streamlit: For creating the web interface.
+12. Pandas: For data manipulation and analysis.
+13. Pickle: For loading pre-trained machine learning models.
+14. NumPy: For numerical operations.
+15. Matplotlib: For plotting and visualizations.
+16. Pillow (PIL): For image processing and display.
+
+-------------------------------------------------------------------------------------------
+
+Extension
+In the base application, various health factors are analyzed using machine learning models to predict cardiovascular disease risk. This includes features like age, gender, cholesterol levels, and smoking habits. The models used include ensemble methods such as Random Forest, K-Nearest Neighbors, Support Vector Machines, Decision Trees, AdaBoost, and XGBoost.
